@@ -6,7 +6,7 @@ const testVersion = 3
 
 // Code this function.
 func KindFromSides(a, b, c float64) Kind {
-	if math.IsNaN(a)  || math.IsNaN(b) || math.IsNaN(c) {
+	if math.IsNaN(a) || math.IsNaN(b) || math.IsNaN(c) {
 		return NaT
 	}
 	if math.IsInf(a, 1) || math.IsInf(b, 1) || math.IsInf(c, 1) {
