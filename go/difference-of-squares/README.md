@@ -1,18 +1,16 @@
-# Hello World
+# Difference Of Squares
 
-The classical introductory exercise. Just say "Hello, World!"
+Find the difference between the square of the sum and the sum of the squares of the first N natural numbers.
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+The square of the sum of the first ten natural numbers is
+(1 + 2 + ... + 10)² = 55² = 3025.
 
-The objectives are simple:
+The sum of the squares of the first ten natural numbers is
+1² + 2² + ... + 10² = 385.
 
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
-
-If everything goes well, you will be ready to fetch your first real exercise.
+Hence the difference between the square of the sum of the first
+ten natural numbers and the sum of the squares of the first ten
+natural numbers is 3025 - 385 = 2640.
 
 ## Running the tests
 
@@ -33,7 +31,7 @@ you're having trouble, please visit the exercism.io [Go language page](http://ex
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+Problem 6 at Project Euler [http://projecteuler.net/problem=6](http://projecteuler.net/problem=6)
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.

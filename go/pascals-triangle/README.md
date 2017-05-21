@@ -1,18 +1,18 @@
-# Hello World
+# Pascals Triangle
 
-The classical introductory exercise. Just say "Hello, World!"
+Compute Pascal's triangle up to a given number of rows.
 
-["Hello, World!"](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program) is
-the traditional first program for beginning programming in a new language
-or environment.
+In Pascal's Triangle each number is computed by adding the numbers to
+the right and left of the current position in the previous row.
 
-The objectives are simple:
-
-- Write a function that returns the string "Hello, World!".
-- Run the test suite and make sure that it succeeds.
-- Submit your solution and check it at the website.
-
-If everything goes well, you will be ready to fetch your first real exercise.
+```plain
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+# ... etc
+```
 
 ## Running the tests
 
@@ -33,7 +33,7 @@ you're having trouble, please visit the exercism.io [Go language page](http://ex
 
 ## Source
 
-This is an exercise to introduce users to using Exercism [http://en.wikipedia.org/wiki/%22Hello,_world!%22_program](http://en.wikipedia.org/wiki/%22Hello,_world!%22_program)
+Pascal's Triangle at Wolfram Math World [http://mathworld.wolfram.com/PascalsTriangle.html](http://mathworld.wolfram.com/PascalsTriangle.html)
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
